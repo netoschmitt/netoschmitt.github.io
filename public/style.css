@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .nav h3 {
@@ -31,7 +32,6 @@ body {
 .navItens {
     list-style-type: none;
     display: flex;
-    
 }
 
 .navItens li{
@@ -70,14 +70,14 @@ body {
 .post {
     position: relative;
     width: 350px;
-    height: 500px;
+    height: 350px;
     justify-self: center;
     
 }
 
 .postImage {
     width: 350px;
-    height: 500px;
+    height: 350px;
     
 }
 
