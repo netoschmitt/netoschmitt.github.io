@@ -27,3 +27,4 @@ function showProfile() {
     document.getElementById("main").style.display = 'none';
     document.getElementById("profile").style.display = 'grid';
 }
+
