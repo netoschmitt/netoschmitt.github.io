@@ -13,6 +13,7 @@ html, body {
 body {
     width: 80%;
     margin: 0 auto;
+    
 }
 
 .nav {
@@ -30,6 +31,7 @@ body {
 .navItens {
     list-style-type: none;
     display: flex;
+    
 }
 
 .navItens li{
@@ -37,21 +39,25 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0.5vw;
+    
 }
 
 .navItens img {
     max-width: 30px;
     cursor: pointer;
+    
 }
 
 .navItens a {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 
 .navItens a:hover {
     background-color: #eee;
+    
 }
 
 .main {
@@ -66,11 +72,13 @@ body {
     width: 350px;
     height: 500px;
     justify-self: center;
+    
 }
 
 .postImage {
     width: 350px;
     height: 500px;
+    
 }
 
 .postLink {
@@ -96,6 +104,7 @@ body {
 .profile {
     display: none;
     grid-template-columns: 1fr 2fr;
+
 }
 
 .profileImageContainer {
@@ -112,11 +121,9 @@ body {
 .profileText * {
     padding: 10px;
     
-    
 }
 
-
-/* so vai acontecer se a tela tiver 800px */
+/* responsivo */
 @media (max-width: 800px) {
     #menu {
         display: none;
